@@ -50,6 +50,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8450-common/proprietary/odm/lib64/libpwsoftirisPCS.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwsoftirisPCS.so \
     vendor/oneplus/sm8450-common/proprietary/odm/lib64/libsnapdragoncolor-pxlw.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnapdragoncolor-pxlw.so \
     vendor/oneplus/sm8450-common/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
+    vendor/oneplus/sm8450-common/proprietary/odm/lib64/soundfx/libdlbvol_sp.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libdlbvol_sp.so \
+    vendor/oneplus/sm8450-common/proprietary/odm/lib64/soundfx/liboplusupmixeffect.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/liboplusupmixeffect.so \
+    vendor/oneplus/sm8450-common/proprietary/odm/lib64/soundfx/libswdap_sp.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libswdap_sp.so \
+    vendor/oneplus/sm8450-common/proprietary/odm/lib64/soundfx/libswgamedap_sp.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libswgamedap_sp.so \
+    vendor/oneplus/sm8450-common/proprietary/odm/lib64/soundfx/libswspatializer.so:$(TARGET_COPY_OUT_ODM)/lib64/soundfx/libswspatializer.so \
     vendor/oneplus/sm8450-common/proprietary/odm/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk_platform.so \
     vendor/oneplus/sm8450-common/proprietary/odm/lib64/vendor.oplus.hardware.cwb@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cwb@1.0.so \
     vendor/oneplus/sm8450-common/proprietary/odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so \
