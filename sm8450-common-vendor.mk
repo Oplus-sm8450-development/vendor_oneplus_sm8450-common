@@ -122,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8450-common/proprietary/system_ext/lib64/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsinkinterface.so \
     vendor/oneplus/sm8450-common/proprietary/system_ext/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsrc.so \
     vendor/oneplus/sm8450-common/proprietary/system_ext/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsrcinterface.so \
+    vendor/oneplus/sm8450-common/proprietary/system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ImsRtpService-V1-ndk.so \
     vendor/oneplus/sm8450-common/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/oneplus/sm8450-common/proprietary/system_ext/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so \
     vendor/oneplus/sm8450-common/proprietary/system_ext/lib64/vendor.qti.hardware.dpmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.dpmservice@1.0.so \
@@ -1243,7 +1244,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogle \
     ImsRcsService \
     QCC \
-    QtiTelephony \
     QtiTelephonyService \
     WfdService \
     dpmserviceapp \
@@ -1256,17 +1256,22 @@ PRODUCT_PACKAGES += \
     uimservicelibrary \
     com.qti.dpmframework \
     dpmapi \
+    oplus-ims-ext \
     qcrilhook \
     vendor.qti.ims.connection-V1.0-java \
+    vendor.qti.ims.connectionaidlservice-V1-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
     vendor.qti.ims.factory-V2.2-java \
+    vendor.qti.ims.factoryaidlservice-V1-java \
     vendor.qti.ims.rcssip-V1.0-java \
     vendor.qti.ims.rcssip-V1.1-java \
     vendor.qti.ims.rcssip-V1.2-java \
+    vendor.qti.ims.rcssipaidlservice-V1-java \
     vendor.qti.ims.rcsuce-V1.0-java \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
+    vendor.qti.ims.rcsuceaidlservice-V1-java \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.security.keymint-service-qti \
