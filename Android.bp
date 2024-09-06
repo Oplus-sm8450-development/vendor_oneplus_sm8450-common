@@ -521,6 +521,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "vendor.qti.hardware.perf",
+	owner: "oneplus",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.qti.hardware.power.powermodule",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml",
@@ -542,6 +551,15 @@ prebuilt_etc_xml {
 	name: "vendor.qti.hardware.radio.qtiradioconfig",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.servicetracker@1.2-service",
+	owner: "oneplus",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
